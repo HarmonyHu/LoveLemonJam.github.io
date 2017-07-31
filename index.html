@@ -9,7 +9,6 @@ permalink: /
         <title>柠檬design</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ site.description }}">
-		<meta name="descex" content="{{ site.descex }}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
         {% if site.favicon_img %}
         <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
@@ -30,8 +29,6 @@ permalink: /
 
             <h1>{{ site.name }}</h1>
             <h3>{{ site.description }}</h3>
-            <h3>{{ site.descex }}</h3>
-			
                 <ul>
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
